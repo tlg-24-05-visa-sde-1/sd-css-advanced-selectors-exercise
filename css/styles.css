@@ -97,8 +97,7 @@ ul > li:last-child {
 
 /* 
 Use a Last-of-type Pseudo-class selector
-Give the last p element of its type among children elements of sections the following CSS Rule
-{
+Give the last p element of its type among children elements of sections the following CSS Rule*/
+section > p:last-of-type {
   color: #8e44ad;
 }
-*/
