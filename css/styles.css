@@ -75,12 +75,11 @@ h2 + p {
 /* ------------------------ BONUS ----------------- */
 /* 
 Use the Hover Pseudo-class selector
-When anchor elements are hovered, give them the following CSS Rule
-{
+When anchor elements are hovered, give them the following CSS Rule*/
+a:hover {
   color: #3498db;
   text-decoration: underline;
 }
-*/
 
 /* 
 Use a First-of-type Pseudo-class selector
