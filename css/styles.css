@@ -90,11 +90,10 @@ section > p:first-of-type {
 
 /* 
 Use a Last-child Pseudo-class selector
-Give the last of the li elements that are children of uls the following CSS Rule
-{
+Give the last of the li elements that are children of uls the following CSS Rule*/
+ul > li:last-child {
   font-style: italic;
 }
-*/
 
 /* 
 Use a Last-of-type Pseudo-class selector
