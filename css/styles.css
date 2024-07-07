@@ -67,11 +67,10 @@ section ~ section {
 
 /* 
 Use Adjacent Sibling Combinator selector
-Give all p elements that are adjacent siblings (i.e. come immediately after, on the same level) of other h2 elements the following CSS Rule
-{
+Give all p elements that are adjacent siblings (i.e. come immediately after, on the same level) of other h2 elements the following CSS Rule*/
+h2 + p {
   font-weight: bold;
 }
-*/
 
 /* ------------------------ BONUS ----------------- */
 /* 
