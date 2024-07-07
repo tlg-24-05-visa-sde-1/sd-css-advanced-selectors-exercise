@@ -83,11 +83,10 @@ a:hover {
 
 /* 
 Use a First-of-type Pseudo-class selector
-Give the first p element of its type among children elements of sections the following CSS Rule
-{
+Give the first p element of its type among children elements of sections the following CSS Rule*/
+section > p:first-of-type {
   color: #e74c3c;
 }
-*/
 
 /* 
 Use a Last-child Pseudo-class selector
