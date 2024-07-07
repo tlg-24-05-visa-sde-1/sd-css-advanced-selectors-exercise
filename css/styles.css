@@ -60,11 +60,10 @@ ul > li {
 
 /* 
 Use General Sibling Combinator selector
-Give all section elements that are general siblings (i.e. come after, on the same level) of other section elements the following CSS Rule
-{
+Give all section elements that are general siblings (i.e. come after, on the same level) of other section elements the following CSS Rule*/
+section ~ section {
   border-top: 1px solid #ddd;
 }
-*/
 
 /* 
 Use Adjacent Sibling Combinator selector
